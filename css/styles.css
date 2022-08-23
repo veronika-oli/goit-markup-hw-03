@@ -38,6 +38,11 @@ ul {
 /* Шапка сайту */
 
     /* Лого */
+.page-header {
+    padding: 60px 0px 60px 0px ;
+
+}
+
 .logo-accent {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
@@ -47,9 +52,6 @@ ul {
 }
 
 .nav-logo {
-    margin-top: 24px;
-    margin-bottom: 25px;
-
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -58,6 +60,8 @@ ul {
 }
 
 .footer-logo {
+    margin-bottom: 20px;
+
     color: var(--white-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -130,7 +134,7 @@ ul {
     background-color: var(--secondary-bg-color);
     text-align: center;
     margin-top: 0;
-    margin-bottom: 94px;
+
 }
 
 .main-title {
@@ -176,14 +180,9 @@ ul {
 /* Секція: Наші переваги */
 
 .advantages-section {
-    margin-top: 0;
-    margin-bottom: 94px;
 }
 
 .advantages-list .name {
-    margin-top: 94px;
-    margin-bottom: 0;
-
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -204,15 +203,20 @@ ul {
 /* Секція: Чим ми займаємося */
 
 .whatwedo-section {
-    margin-top: 0;
-    margin-bottom: 94px;
+
+}
+
+.whatwedo-section .section-title {
+    margin-bottom: 50px;
 }
 
 /* Секція: Наша команда */
 
+.team-section .section-title {
+    margin-bottom: 50px;
+}
+
 .team-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: var(--tertiary-bg-color);
 }
 
@@ -228,6 +232,8 @@ ul {
     font-size: 16px;
     line-height: 1.2; 
     text-align: center;
+
+    margin-bottom: 10px;
 }
 
 .team-position {
@@ -241,6 +247,7 @@ ul {
 
 .page-footer {
     background-color: var(--secondary-bg-color);
+    padding: 60px 0px 60px 0px ;
 }
 
 /* Ссылки. Підвал*/
@@ -276,6 +283,8 @@ ul {
     line-height: 1.7;
     text-decoration: none;
 }
+
+
 
 
 /* варіант оформлення посилань
@@ -356,3 +365,11 @@ ul {
     padding-right: 15px;
     margin: 0 auto;
 }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.benefits {
+    padding-bottom: 0;}
