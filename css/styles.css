@@ -38,10 +38,6 @@ ul {
 /* Шапка сайту */
 
     /* Лого */
-.page-header {
-    padding: 60px 0px 60px 0px ;
-
-}
 
 .logo-accent {
     color: var(--accent-color);
@@ -52,6 +48,9 @@ ul {
 }
 
 .nav-logo {
+    margin-top: 24px;
+    margin-bottom: 25px;
+
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -71,10 +70,7 @@ ul {
 
 
     /* Посилання */
-.site-nav .list-item {
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
+
 
 .site-nav .link.current {
     color: var(--accent-color);
@@ -202,25 +198,13 @@ ul {
 
 /* Секція: Чим ми займаємося */
 
-.whatwedo-section {
-
-}
-
-.whatwedo-section .section-title {
-    margin-bottom: 50px;
-}
-
 /* Секція: Наша команда */
 
-.team-section .section-title {
-    margin-bottom: 50px;
-}
-
-.team-section {
+.section.team {
     background-color: var(--tertiary-bg-color);
 }
 
-.team-section .list-item {
+.section.team .list-item {
     margin-top: 50px;
     margin-bottom: 0;
     background-color: var(--white-color);
@@ -287,31 +271,6 @@ ul {
 
 
 
-/* варіант оформлення посилань
-
-.site-nav .link.current {
-    color: var(--accent-color);
-}
- 
-.link.primary {
-    color: var(--title-text-color);
-}
-
-.link.secondary {
-    color: var(--white-color);
-}
-
-.link.primary:hover,
-.link.primary:focus {
-    color: var(--accent-color);
-}
-
-.link.secondary:hover,
-.link.secondary:focus {
-    color: var(--accent-color);
-} */
-
-
 /* Портфоліо */
 .filters-list .button {
     display: inline-block;
@@ -371,5 +330,10 @@ ul {
     padding-bottom: 94px;
 }
 
-.section.benefits {
-    padding-bottom: 0;}
+.section.nopadding {
+    padding-bottom: 0;
+}
+
+.section-title {
+    padding-bottom: 50px;
+}
