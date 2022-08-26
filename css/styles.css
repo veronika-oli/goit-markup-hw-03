@@ -37,6 +37,7 @@ ul {
 
 /* Шапка сайту */
 
+
     /* Лого */
 
 .logo-accent {
@@ -76,18 +77,72 @@ ul {
     color: var(--accent-color);
 }
 
+.site-nav.list {
+    display: flex;
+}
+
+.site-nav .list-item + .list-item {
+    margin-left: 50px;
+}
+
+
+
 .site-nav.list .link {
+    display: flex;
     color: var(--title-text-color);
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
-    
+
+    padding-top: 32px;    
+    padding-bottom: 32px;
 }
 
-.contacts .list-item {
+.contacts.list {
+    display: flex;
 }
+
+.contacts.list .link {
+    padding-top: 32px;    
+    padding-bottom: 32px;
+}
+
+.contacts.list .list-item + .list-item {
+    margin-left: 50px;
+}
+
+
+.page-header .main-nav {
+    display: flex;
+}
+
+
+/* 
+.site-nav.list {
+    display: flex;
+}
+
+ВАРІАНТИ ЗАДАННЯ ВІДСТУПІВ
+1.
+.site-nav .list-item + .list-item {
+    margin-left: 50px;
+}
+
+2.
+.site-nav .list-item {
+    margin-right: 50px;
+}
+.site-nav .list-item:last-child {
+    margin-right: 0;
+}
+
+3.
+.site-nav .list-item:not(last-child) {
+    margin-right: 50px;
+
+*/
 
 .contacts .link {
     color: var(--primary-text-color);
@@ -323,6 +378,8 @@ ul {
     margin-left: auto;
     outline: 2px solid red;
 }
+
+
 
 .section {
     padding-top: 94px;
