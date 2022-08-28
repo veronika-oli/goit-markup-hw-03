@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +17,12 @@
 
     <!--Шапка сайту-->
     <header class="page-header">
-        <div class="container">
-            <nav class="nav">
+        <div class="container main-nav">
                 <a class="nav-logo" href="./index.html">
                     <span class="logo-accent">Web</span>Studio
                 </a>
-    
+
+            <nav class="nav">
                 <ul class="site-nav list">
                     <li class="list-item">
                         <a class="link current" href="./index.html">Студія</a>
@@ -64,9 +64,9 @@
         </section>
 
         <!--Наші переваги-->
-        <section class="section advantages">
+        <section class="section advantages nopadding">
             <div class="container">
-                <h2 hidden class="section-title">Наші переваги</h2>
+                <h2 class="section-title visually-hidden">Наші переваги</h2>
     
                 <ul class="advantages-list">
                     <li class="list-item">
@@ -95,7 +95,7 @@
         <section class="section whatwedo">
              <div class="container">
                 <h2 class="section-title">Чим ми займаємося</h2>
-                <ul class="list">
+                <ul class="whatwedo-list">
                     <li class="list-item"> 
                         <img class="img" src="./images/img1.jpg" alt="Руки печатают на клавиатуре" width="370" height="294">
                     </li>
@@ -114,27 +114,35 @@
         <section class="section team">
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
-                <ul class="list">
+                <ul class="team-list">
                     <li class="list-item">
                         <img class="img" src="./images/img4.jpg" alt="Мужчина в рубашке и очках" width="270" height="260">
-                        <h3 class="team-name">Ігор Дем'яненко</h3>
-                        <p class="team-position" lang="en">Product Designer</p>
+                        <div class="team-content">
+                            <h3 class="team-name">Ігор Дем'яненко</h3>
+                            <p class="team-position" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="list-item">
                         <img class="img" src="./images/img5.jpg" alt="Девушка со светлыми волосами, в очках" width="270" height="260">
-                        <h3 class="team-name">Ольга Рєпіна</h3>
-                        <p class="team-position" lang="en">Frontend Developer</p>
+                        <div class="team-content">
+                            <h3 class="team-name">Ольга Рєпіна</h3>
+                            <p class="team-position" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="list-item">
                         <img class="img" src="./images/img6.jpg" alt="Мужчина в светлой рубашке" width="270" height="260">
-                        <h3 class="team-name">Микола Тарасов</h3>
-                        <p class="team-position" lang="en">Marketing</p>
+                        <div class="team-content">
+                            <h3 class="team-name">Микола Тарасов</h3>
+                            <p class="team-position" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="list-item">
                         <img class="img" src="./images/img7.jpg" alt="Мужчина с бородой, в черной футболке, в очках"
                             width="270" height="260">
-                        <h3 class="team-name">Михайло Єрмаков</h3>
-                        <p class="team-position" lang="en">UI Designer</p>
+                        <div class="team-content">
+                            <h3 class="team-name">Михайло Єрмаков</h3>
+                            <p class="team-position" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -144,9 +152,11 @@
     <!-- Підвал -->
     <footer class="page-footer">
         <div class="container">
-            <a class="footer-logo" href="./index.html">
-                <span class="logo-accent">Web</span>Studio
-            </a>
+            <div class="footer-logotype">
+                <a class="footer-logo" href="./index.html">
+                    <span class="logo-accent">Web</span>Studio
+                </a>
+            </div>
             <address class="contacts-address">
                 <ul class="list">
                     <li class="list-item">

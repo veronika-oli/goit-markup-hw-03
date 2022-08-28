@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,13 +16,12 @@
 
     <!--Шапка сайту-->
     <header class="page-header">
-
-        <div class="container">
-            <nav class="nav">
+        <div class="container main-nav">
                 <a class="nav-logo" href="./index.html">
                     <span class="logo-accent">Web</span>Studio
                 </a>
-    
+
+            <nav class="nav">
                 <ul class="site-nav list">
                     <li class="list-item">
                         <a class="link" href="./index.html">Студія</a>
@@ -53,9 +52,9 @@
 <main>
 <!-- Проєкти -->
 
-    <section class="filters-section">
+    <section class="section">
         <div class="container">
-            <h1 hidden class="section-title"> Проєкти </h1>
+            <h1 class="section-title visually-hidden"> Проєкти </h1>
 
         <ul class="filters-list">
             <li class="list-item">
@@ -79,65 +78,83 @@
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card1.jpg" alt="ноутбук" width="370" height="294">
-                    <h2 class="name">Технокряк</h2>
-                    <p class="text">Веб-сайт</p>
+                    <div class="projects-contant">
+                        <h2 class="name">Технокряк</h2>
+                        <p class="text">Веб-сайт</p>
+                    </div>
                 </a> 
             </li>
             <li class="list-item">
                 <a class="link" href="#">                
                     <img src="./images/card2.jpg" alt="спортсмены" width="370" height="294">
-                    <h2 class="name">Постер New Orlean vs Golden Star</h2>
-                    <p class="text">Дизайн</p>
+                    <div class="projects-contant">
+                        <h2 class="name">Постер New Orlean vs Golden Star</h2>
+                        <p class="text">Дизайн</p>
+                    </div>
                 </a>
             </li>
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card3.jpg" alt="рыба и логотип" width="370" height="294">
-                    <h2 class="name">Ресторан Seafood</h2>
-                    <p class="text">Додаток</p>
+                    <div class="projects-contant">
+                        <h2 class="name">Ресторан Seafood</h2>
+                        <p class="text">Додаток</p>
+                    </div>
                 </a>
             </li>
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card4.jpg" alt="наушники" width="370" height="294">
-                    <h2 class="name">Проєкт Prime</h2>
-                    <p class="text">Маркетинг</p>
+                    <div class="projects-contant">
+                        <h2 class="name">Проєкт Prime</h2>
+                        <p class="text">Маркетинг</p>
+                    </div>
                 </a>                
             </li>
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card5.jpg" alt="две коробки" width="370" height="294">
-                    <h2 class="name">Проєкт Boxes</h2>
-                    <p class="text">Додаток</p>
+                    <div class="projects-contant">
+                        <h2 class="name">Проєкт Boxes</h2>
+                        <p class="text">Додаток</p>
+                    </div>
                 </a>                
             </li>
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card6.jpg" alt="монитор компьютера" width="370" height="294">
-                    <h2 class="name" lang="en">Inspiration has no Borders</h2>
-                    <p class="text">Веб-сайт</p>
+                    <div class="projects-contant">
+                        <h2 class="name" lang="en">Inspiration has no Borders</h2>
+                        <p class="text">Веб-сайт</p>
+                    </div>
                 </a>                
             </li>
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card7.jpg" alt="открытая книга" width="370" height="294">
-                    <h2 class="name">Видання Limited Edition</h2>
-                    <p class="text">Дизайн</p>
+                    <div class="projects-contant">
+                        <h2 class="name">Видання Limited Edition</h2>
+                        <p class="text">Дизайн</p>
+                    </div>
                 </a>
                 
             </li>
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card8.jpg" alt="этикетка-ценник" width="370" height="294">
-                    <h2 class="name">Проєкт LAB</h2>
-                    <p class="text">Маркетинг</p>
+                    <div class="projects-contant">
+                        <h2 class="name">Проєкт LAB</h2>
+                        <p class="text">Маркетинг</p>
+                    </div>
                 </a>                
             </li>
             <li class="list-item">
                 <a class="link" href="#">
                     <img src="./images/card9.jpg" alt="руи печатают на клавиатуре ноутбука" width="370" height="294">
-                    <h2 class="name" lang="en">Growing Business</h2>
-                    <p class="text">Додаток</p>
+                    <div class="projects-contant">
+                        <h2 class="name" lang="en">Growing Business</h2>
+                        <p class="text">Додаток</p>
+                    </div>
                 </a>                
             </li>
         </ul>
@@ -150,9 +167,11 @@
     <!-- Підвал -->
     <footer class="page-footer">
         <div class="container">
-            <a class="footer-logo" href="./index.html">
-                <span class="logo-accent">Web</span>Studio
-            </a>
+            <div class="footer-logotype">
+                <a class="footer-logo" href="./index.html">
+                    <span class="logo-accent">Web</span>Studio
+                </a>
+            </div>
             <address class="contacts-address">
                 <ul class="list">
                     <li class="list-item">
