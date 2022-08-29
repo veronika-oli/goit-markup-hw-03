@@ -45,10 +45,7 @@ img {
 /* Шапка сайту */
 
 .page-header {
-    border: 1px solid var(--header-border-color);
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border-bottom: 1px solid var(--header-border-color);
 }
 
 .page-header .main-nav {
@@ -69,8 +66,8 @@ img {
 }
 
 .nav-logo {
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
@@ -80,6 +77,9 @@ img {
 }
 
 .footer-logo {
+    display: block;
+    margin-bottom: 20px;
+
     color: var(--white-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -90,6 +90,9 @@ img {
 
     /* Посилання */
 
+.nav {
+    margin-left: 93px;
+}
 
 .site-nav.list .link.current {
     color: var(--accent-color);
@@ -97,7 +100,6 @@ img {
 
 .site-nav.list {
     display: flex;
-    margin-left: 93px;
 }
 
 .site-nav .list-item + .list-item {
@@ -107,7 +109,7 @@ img {
 
 
 .site-nav.list .link {
-    display: flex;
+    display: block;
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -115,18 +117,21 @@ img {
     line-height: 1.14;
     text-decoration: none;
 
-    padding-top: 32px;    
+    padding-top: 32px;
     padding-bottom: 32px;
+
 }
 
 .contacts.list {
     display: flex;
-    padding-top: 32px;    
-    padding-bottom: 32px;
     margin-left: auto;
 }
 
 .contacts.list .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 
 .contacts.list .list-item + .list-item {
@@ -334,6 +339,11 @@ calc ((100% - кол-во маржинов в строке * значение м
 }
 
 /* Секція: Чим ми займаємося */
+
+.section-title {
+    margin-bottom: 50px;
+}
+
 .whatwedo-list{
     display: flex;
     justify-content: center;
@@ -407,8 +417,8 @@ calc ((100% - кол-во маржинов в строке * значение м
 
 /* Посилання. Підвал*/
 
-.footer-logotype {
-    margin-bottom: 20px;
+address {
+    font-style: normal;   
 }
 
 .contacts-address .list-item + .list-item {
@@ -417,7 +427,6 @@ calc ((100% - кол-во маржинов в строке * значение м
 
 .contacts-address .link.map {
     color: var(--white-color);
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
@@ -432,7 +441,6 @@ calc ((100% - кол-во маржинов в строке * значение м
 
 .contacts-address .link.contact {
     color: var(--white-color-transparent);
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
@@ -561,9 +569,6 @@ calc ((100% - кол-во маржинов в строке * значение м
     padding-bottom: 0;
 }
 
-.section-title {
-    padding-bottom: 50px;
-}
 
 
 .img {
